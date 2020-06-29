@@ -1,0 +1,10 @@
+.grid_item_container{
+    height: 7rem;
+    width: 7rem;
+    display: grid;
+    padding-bottom: .7rem;
+}
+
+button:active {
+    transform: scale(0.99);
+}

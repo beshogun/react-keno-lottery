@@ -1,0 +1,14 @@
+body {
+  font-family: 'Monaco';
+  padding: 2rem ;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: start;
+  padding-top: 2rem;
+  overflow: hidden;
+
+}

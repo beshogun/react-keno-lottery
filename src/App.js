@@ -1,25 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import KenoGrid from "./components/keno_grid/kenogrid.component";
+import GridState from "./context/grid/gridState";
+import "./App.styles.scss";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <GridState>
+        <div className="App">
+          <div className="container">
+            <KenoGrid />
+          </div>
+        </div>
+    </GridState>
   );
 }
 

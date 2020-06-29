@@ -1,0 +1,11 @@
+export const GET_STAKE = 'GET_STAKE'
+export const SET_GRID_DATA = 'SET_GRID_DATA';
+export const SET_CARD_SELECTION = 'SET_CARD_SELECTION';
+export const GET_TOTAL = 'GET_TOTAL';
+export const SET_BET = 'SET_BET';
+export const SET_CARD = 'SET_CARD';
+export const RESET_GRID_DATA = 'RESET_GRID_DATA';
+export const SET_BULK_CARD = 'SET_BULK_CARD';
+export const CLEAR_BET = 'CLEAR_BET';
+export const SET_GAME = 'SET_GAME';
+export const SET_TOP_FIVE = 'SET_TOP_FIVE';

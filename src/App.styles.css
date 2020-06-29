@@ -1,0 +1,20 @@
+body {
+  font-family: 'Monaco';
+  padding: 2rem;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  padding-top: 2rem;
+  overflow: hidden;
+}
+/*# sourceMappingURL=App.styles.css.map */

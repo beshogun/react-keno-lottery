@@ -1,0 +1,214 @@
+.title__box {
+  font-weight: bold;
+  font-size: 1.5rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  color: #d30d17;
+}
+
+.hr {
+  border: none;
+  background-color: #d30d17;
+  color: #d30d17;
+  height: 1px;
+}
+
+.grid_item__box {
+  grid-column: center-start / center-end;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(8rem, 0.5fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(8rem, 0.5fr));
+  grid-gap: 0.2rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.grid__footer {
+  display: -ms-grid;
+  display: grid;
+}
+
+.bet__box {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -ms-grid-columns: (minmax(1rem, 1fr))[6];
+      grid-template-columns: repeat(6, minmax(1rem, 1fr));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.place_bet_button {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -ms-grid-columns: 0.1fr;
+      grid-template-columns: 0.1fr;
+  padding-right: 0.8rem;
+  border-radius: 0.1rem;
+  padding: 1rem;
+  text-align: start;
+}
+
+.button_bet {
+  height: 2rem;
+  background: none;
+  color: inherit;
+  padding: 0;
+  padding-left: 1rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  outline: inherit;
+  text-align: start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  justify-items: start;
+  border-radius: 0.1rem;
+}
+
+.button_place_bet {
+  height: 1.5rem;
+  width: 10rem;
+  background: none;
+  background-color: #d30d17;
+  color: white;
+  padding: 0;
+  font-size: 0.7rem;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  padding-top: 0.4rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 0.1rem;
+}
+
+.button_random_bet {
+  text-align: center;
+  height: 2rem;
+  width: 10rem;
+  background: none;
+  background-color: #d30d17;
+  color: white;
+  padding: 0;
+  font-size: 0.8rem;
+  cursor: pointer;
+  outline: 1px;
+  border: none;
+  font-weight: bold;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  border-radius: 0.1rem;
+  margin: 0.5rem;
+}
+
+button:active {
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+}
+
+.a {
+  text-decoration: none;
+}
+
+a:active {
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+}
+
+input {
+  height: 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 0.1rem;
+  -webkit-columns: black;
+          columns: black;
+}
+
+.popup {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: start;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999;
+  padding-top: 9rem;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup__content {
+  width: 50rem;
+  height: 30rem;
+  background-color: black;
+  -webkit-box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.popup__content__game__text {
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
+      grid-template-rows: 0.1fr 0.1fr 0.1fr 0.1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: start;
+  padding-top: 10rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.popup__content__details {
+  font-size: 1rem;
+}
+/*# sourceMappingURL=kenogrid.styles.css.map */

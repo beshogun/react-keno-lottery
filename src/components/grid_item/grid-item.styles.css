@@ -1,0 +1,13 @@
+.grid_item_container {
+  height: 7rem;
+  width: 7rem;
+  display: -ms-grid;
+  display: grid;
+  padding-bottom: .7rem;
+}
+
+button:active {
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+}
+/*# sourceMappingURL=grid-item.styles.css.map */
